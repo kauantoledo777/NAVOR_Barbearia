@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@500&family=Instrument+Serif:ital@0;1&display=swap');
+
+
+:root {
+   --cor-fundo: #171717; /*cor de fundo das paginas*/
+   --cor-menu-nav: #292929; /*cor de funto menu navegacao, cards e formularios*/
+   --cor-btn: #D3AF27; /*cor de botoes e fonte principal (titulos)*/
+   --cor-fonte: #F5F2E8; /* cor das fonte secundaria paragrafos */
+   --cor-rodape: #8a8a8a; /*cor de fundo do rodape (footer)*/
+
+   --fonte-principal: "Instrument Serif", "open-sans"; /*fonte pricnipal para titulos*/
+   --fonte-secundaria: "Geist", "open-sans" /*fonte para paragrafos <p>, <label> e <span> */ 
+}
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+

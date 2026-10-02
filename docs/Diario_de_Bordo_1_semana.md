@@ -42,6 +42,7 @@ Também foi definida inicialmente a seguinte identidade:
 - **Cor de fundo:** grafite/preto
 - **Cor de destaque:** dourado
 - **Textos:** branco e tons claros
+- **Fontes de Textos:** "Instrument Serif", "open-sans" e "Geist"
 - **Estilo:** moderno, urbano e sofisticado
 
 A página inicial será utilizada para apresentar a NAVØR e direcionar o usuário para as demais áreas do site.
