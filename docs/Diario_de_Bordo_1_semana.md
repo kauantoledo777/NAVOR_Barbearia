@@ -20,16 +20,16 @@ A partir disso, surgiu a proposta de transformar a NAVØR em um espaço que reú
 
 ### Áreas definidas
 
-1. **Barbearia**
-2. **Estética e tratamentos capilares**
-3. **NAVØR Academy** – escola e cursos para barbeiros
-4. **Lounge e entretenimento**
-5. **Loja de produtos**
-6. **Agendamento**
-7. **Equipe**
-8. **Galeria de fotos**
-9. **Contato**
-10. **Página inicial (Home)**
+1. **Barbearia - Início**
+2. **Sobre nós**
+3. **Loja** – escola e cursos para barbeiros
+4. **Lounge**
+5. **Galeria**
+6. **Contato**
+7. **Localização**
+8. **Depoimentos**
+9. **Agendamento**
+10. **Equipe**
 
 ---
 
@@ -57,9 +57,7 @@ A equipe iniciou a elaboração do rascunho da página inicial e definiu uma est
 - Imagem principal
 - Apresentação da NAVØR
 - Acesso aos principais serviços
-- Botão de agendamento
 - Links para outras páginas
-- Rodapé com informações de contato e redes sociais
 
 Também foi planejado que as páginas utilizarão os recursos estudados em sala, como:
 
@@ -74,12 +72,11 @@ Também foi planejado que as páginas utilizarão os recursos estudados em sala,
 
 ## Próximos passos
 
-Na próxima etapa, a equipe pretende apresentar o rascunho ao professor para validar a proposta e a divisão das 10 páginas.
 
 Após a validação, serão realizados os ajustes necessários e iniciado o desenvolvimento da **estrutura HTML** e da **identidade visual do site**.
 
 ---
 
-## 📌 Status do projeto
+## Status do projeto
 
 **Etapa atual:** Planejamento e definição do projeto.
