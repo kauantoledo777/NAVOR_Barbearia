@@ -1,6 +1,6 @@
 # Diário de Bordo — Desenvolvimento Front-End
 
-## Projeto NAVØR – Barber • Academy • Lounge
+## Projeto NAVØR – Barber • Lounge
 
 **Disciplina:** Desenvolvimento Front-End  
 **Equipe:** Grupo 3  
