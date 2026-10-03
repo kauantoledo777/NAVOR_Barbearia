@@ -22,7 +22,7 @@ A partir disso, surgiu a proposta de transformar a NAVØR em um espaço que reú
 
 1. **Barbearia - Início**
 2. **Sobre nós**
-3. **Loja** – escola e cursos para barbeiros
+3. **Loja** 
 4. **Lounge**
 5. **Galeria**
 6. **Contato**
