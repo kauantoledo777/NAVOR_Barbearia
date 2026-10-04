@@ -6,13 +6,13 @@ Desenvolvimento de um site para uma barbearia que oferece serviços de cuidados 
 Projeto desenvolvido em grupo com o objetivo de estruturar uma página para uma barbearia, visando à futura integração de um sistema ERP à plataforma.
 
 ## Funções
-**Mariana e Oséias:** verificar acessibilidade.
+**Mariana, Oséias e Daniel:** Sugestão de acessibilidade.
 
-**Guilherme Carlos e Pamela:** sugerem melhoria semântica
+**Guilherme Carlos e Pamela:** Sugerem melhoria semântica.
 
-**Gabriel e Guilherme Elder:** elaborar relatóio de orçamento de hospedagem.
+**Gabriel e Guilherme Elder:** Elaborar relatóio de orçamento de hospedagem.
 
-**Enzo, Kauan e Matheus:** desenvoldedores FrontEnd
+**Enzo, Kauan e Matheus:** Desenvoldedores FrontEnd.
 
-**Erisclécio:** arquiteto da informação
+**Erisclécio:** Arquiteto da informação.
 
