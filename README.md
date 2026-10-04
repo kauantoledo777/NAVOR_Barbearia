@@ -15,8 +15,3 @@ Projeto desenvolvido em grupo com o objetivo de estruturar uma página para uma 
 **Enzo, Kauan e Matheus:** Desenvoldedores FrontEnd.
 
 **Erisclécio:** Arquiteto da informação.
-
-## Visualização do Projeto
-
-[Acessar o site NAVØR](https://kauantoledo777.github.io/NAVOR_Barbearia/html/index.html)
-
