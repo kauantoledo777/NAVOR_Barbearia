@@ -13,16 +13,16 @@
     <header>
         <h1>Agendamento</h1>
         <nav>
-            <a href="index.html">Início</a>
-            <a href="sobre.html">Sobre Nós</a>
-            <a href="loja.html">Loja</a>
-            <a href="lounge.html">Lounge</a>
-            <a href="galeria.html">Galeria</a>
-            <a href="contato.html">Contato</a>
-            <a href="localizacao.html">Localização</a>
-            <a href="depoimentos.html">Depoimentos</a>
-            <a href="agendamento.html">Agendamento</a>
-            <a href="equipe.html">Equipe</a>
+            <a href="index.html" aria-label="acesse à pagina inicio">Início</a>
+            <a href="sobre.html" aria-label="acesse à pagina sobre">Sobre Nós</a>
+            <a href="loja.html" aria-label="acesse à pagina loja">Loja</a>
+            <a href="lounge.html" aria-label="acesse à pagina lounge">Lounge</a>
+            <a href="galeria.html" aria-label="acesse à pagina galeria">Galeria</a>
+            <a href="contato.html" aria-label="acesse à pagina contato  ">Contato</a>
+            <a href="localizacao.html" aria-label="acesse à pagina localização">Localização</a>
+            <a href="depoimentos.html" aria-label="acesse à pagina depoimentos">Depoimentos</a>
+            <a href="agendamento.html" aria-label="acesse à pagina agendamento">Agendamento</a>
+            <a href="equipe.html" aria-label="acesse à pagina equipe">Equipe</a>
         </nav>
     </header>
     <main>
@@ -30,46 +30,46 @@
             <h1>Agende seu horário</h1>
             <p>Escolha seu especialista, os rituais de sua preferência e reserve seu momento de desconexão e estilo no atelier NAVØR.</p>
             <div>
-                <form>
-                    <label for="">
+                <form method="post" action="">
+                    <label for="escolha-especialista">
                         Escolha seu especialista:
                     </label>
-                    <select name="" id="">
-                        <option value="">Especialista 1</option>
-                        <option value="">Especialista 2</option>
-                        <option value="">Especialista 3</option>
-                        <option value="">Especialista 4</option>
+                    <select name="especialista" id="especialista">
+                        <option value="especialista1">Especialista 1</option>
+                        <option value="especialista2">Especialista 2</option>
+                        <option value="especialista3">Especialista 3</option>
+                        <option value="especialista4">Especialista 4</option>
                     </select>   
 
-                    <label for="">
+                    <label for="selecionar-data">
                         Selecione a Data desejada:
                     </label>
-                    <input type="date">
-                    <label for="">
+                    <input type="date" id="selecionar-data" required>
+                    <label for="nome">
                         Coloque seu nome completo:
                     </label>
-                    <input type="text">
+                    <input type="text" id="nome" name="nome" required>
                         
-                    <label for="">
+                    <label for="servico">
                         Selecione o serviço desejado:
                     </label>
-                    <select name="" id="">
-                        <option value="">Corte de Cabelo</option>
-                        <option value="">Barba</option>
-                        <option value="">Corte + Barba</option>
-                        <option value="">Tratamento Capilar</option>
+                    <select name="servico" id="servico">
+                        <option value="corte">Corte de Cabelo</option>
+                        <option value="barba">Barba</option>
+                        <option value="corte-barba">Corte + Barba</option>
+                        <option value="tratamento">Tratamento Capilar</option>
                     </select>
 
-                    <label for="">
+                    <label for="selecionar-horario">
                         Selecione o horário desejado:
                     </label>
-                    <input type="time">
-                    <label for="">
+                    <input type="time" id="selecionar-horario">
+                    <label for="telefone">
                         Seu telefone para contato:
                     </label>
-                    <input type="tel">
+                    <input type="tel" id="telefone" name="telefone" required>
 
-                    <button type="submit">Agendar</button>
+                    <button type="submit" aria-label="Confirmar agendamento">Agendar</button>
                 </form>
                 <div>
                     <h2>Seu Momento NAVØR</h2>
