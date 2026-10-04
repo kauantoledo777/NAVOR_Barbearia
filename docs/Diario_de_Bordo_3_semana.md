@@ -1,10 +1,14 @@
 # Diário de Bordo — Desenvolvimento Front-End
 
 ## Projeto NAVØR – Barber • Lounge
+
 **Disciplina:** Desenvolvimento Front-End
 **Equipe:** Grupo 3
+
 **Professor:** Paulo Henrique
+
 **Semana:** 3 — Validação das paginas, estrutura, formatação e documentação técnica do projeto
+
 **Data:** 04/10/2026
 
 ---
