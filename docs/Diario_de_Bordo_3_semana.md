@@ -1,10 +1,14 @@
 # Diário de Bordo — Desenvolvimento Front-End
 
 ## Projeto NAVØR – Barber • Lounge
+
 **Disciplina:** Desenvolvimento Front-End
 **Equipe:** Grupo 3
+
 **Professor:** Paulo Henrique
+
 **Semana:** 3 — Validação das paginas, estrutura, formatação e documentação técnica do projeto
+
 **Data:** 04/10/2026
 
 ---
@@ -28,6 +32,7 @@ Nesta semana, a equipe iniciou a validação pelo W3C Validator, e igualdade da 
 ## Decisões relevantes
 
 Foram identificados os códigos HEX das cores previamente estabelecidas para manter um padrão visual durante o desenvolvimento.
+
 - **Cores de fundo: grafite/preto**
 - **HEX - #171717; #292929;**
 - **Cor de destaque: dourado =**  #D3AF37;
@@ -38,13 +43,16 @@ Foram identificados os códigos HEX das cores previamente estabelecidas para man
 A página inicial será utilizada para apresentar a NAVØR e direcionar o usuário para as demais áreas do site.
 
 **Validação de páginas no W3C Validator**
+
 Realizamos a validação de algumas das páginas já desenvolvidas pela equipe utilizando o W3C Validator.
 Durante a validação, foram identificados alguns erros na estrutura do código. A equipe retornou ao desenvolvimento dessas páginas para realizar as correções necessárias, e foi realizado a correção das mesmas.
 
 **Inclusão de relatório de hospedagem e domínio**
+
 Realizamos uma comparação inicial entre algumas opções de hospedagem e domínio e adicionamos em PDF dentro do DOCS.
 
 **Inclusão de acessibilidade ao site**
+
 Foi incrementado o uso de tags de acessibilidade em todas as páginas do projeto, como:
 - textos alternativos em imagens;
 - organização adequada dos títulos;
