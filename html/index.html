@@ -9,9 +9,9 @@
 </head>
 
 <body>
-    <header>
-        <h1>NAVØR | Início</h1>
-        <nav>
+    <header class="cabecalho">
+        <h1 class="titulo">NAVØR | Início</h1>
+        <nav class="navegacao" aria-label="Navegação principal">
             <a href="index.html" aria-label="acesse à pagina inicio">Início</a>
             <a href="sobre.html" aria-label="acesse à pagina sobre">Sobre Nós</a>
             <a href="loja.html" aria-label="acesse à pagina loja">Loja</a>
@@ -24,17 +24,21 @@
             <a href="equipe.html" aria-label="acesse à pagina equipe">Equipe</a>
         </nav>
     </header>
-    <main>
-        <section>
-            <h2>Seu Estilo. Nossa Precisão</h2>
-            <p>EST. 2026</p>
-            <p>
+    <main class="conteudo">
+        <section class="banner">
+            <p class="ano">EST. 2026</p>
+            <h2>
+                Seu Estilo.
+                <span>Nossa Precisão</span>
+            </h2>
+            <p class="descricao">
                 Uma experiência de barbearia criada
                 para homens que exigem mais.
             </p>
-            <a href="agendamento.html">Agendar Horário</a>
-            <a href="sobre.html">Conheça a NAVØR</a>
-            <img src="../img/navor_fundo.webp" alt="Fundo NAVØR">
+            <div class="botoes">
+                <a href="agendamento.html" aria-label="Agendar horário" class="botao">Agendar Horário</a>
+                <a href="sobre.html" aria-label="Conheça a NAVØR" class="botao">Conheça a NAVØR</a>
+            </div>
         </section>
     </main>
     <footer>
