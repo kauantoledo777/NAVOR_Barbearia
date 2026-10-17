@@ -21,10 +21,15 @@
    box-sizing: border-box;
 }
 body {
-   margin: 0;
+    margin: 0;
     background-color: #101010;
-    font-family: "Montserrat", sans-serif;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+}
+main {
+    flex: 1;
 }
 .depoimentos {
    display: flex;
@@ -34,23 +39,70 @@ body {
    max-width: 1100px;
    margin: 40px auto;
 }
+.frase-depoimentos{
+   display: flex;
+   color: #D3AF27;
+   position: absolute;
+   left: 5%;
+   top: 40%;
+}
+.frase-depoimentos span{
+   display: block;
+   color: #F5F5F5;
+}
 .card {
-   background: #f7f7f7;
+   background: #1F1F1F;
    border-radius: 8px;
    padding: 28px 32px;
    width: 320px;
    box-sizing: border-box;
+   border-radius: 5%;
+   border: 1px solid #D4AF37;
+   position: relative;
+   transition: all 0.3s ease;
+}
+.card:hover{
+   transform: translateY(-50px);
+   box-shadow: 0 5px 10px rgba(212, 175, 55, 0.3);
+}
+.card-baixo{
+   background: #1F1F1F;
+   border-radius: 8px;
+   padding: 28px 32px;
+   width: 320px;
+   box-sizing: border-box;
+   border-radius: 5%;
+   border: 1px solid #D4AF37;
+   position: relative;
+   transition: all 0.3s ease;
+}
+.card-baixo:hover{
+   transform: translate(0, 50px);
+   box-shadow: 0 5px 10px rgba(212, 175, 55, 0.3);
+}
+.card-baixo p{
+   color: #F5F5F5;
+   font-weight: 400;
+}
+.card-baixo h3{
+   color: #D4AF37;
+   margin: 0 0 20px;
+   font-size: 18px;
 }
 .card h3 {
+   color: #D4AF37;
    margin: 0 0 20px;
    font-size: 18px;
 }
 .card blockquote {
    margin: 0 0 20px;
    padding-left: 14px;
-   border-left: 3px solid #dcdcdc;
    line-height: 1.6;
    font-size: 15px;
+}
+.card p{
+   color: #F5F5F5;
+   font-weight: 400;
 }
 .estrelas {
    color: #f5b301;
@@ -59,6 +111,7 @@ body {
 }
 .autor {
    font-size: 15px;
+   color: #B0B0B0;
 }
 .produto {
    border: 3px solid black;
@@ -77,7 +130,7 @@ body {
    gap: 15px;
    padding: 20px;
    background-color: #171717;
-   text-align: center;
+   justify-content: center;
 }
 .navegacao a {
    color: #D4AF37;
@@ -85,6 +138,8 @@ body {
    padding: 10px 15px;
    border-radius: 5px;
    transition: all 0.5s ease;
+   justify-content: center;
+   display: flex;
 }
 .navegacao a:hover {
    color: #FFD700;
@@ -97,7 +152,7 @@ body {
    color: #D4AF37;
    padding: 20px;
    text-align: center;
-   border-bottom: 1px solid #FFD700;
+   border-bottom: 2px solid #FFD700;
 }
 .banner {
    background-image:
@@ -132,6 +187,23 @@ body {
    font-size: 12px;
    color: #D4AF27;
 }
+.banner-sobre{
+      background-image:
+      linear-gradient(
+         rgba(0, 0, 0, 0.6),
+         rgba(0, 0, 0, 0.6)
+      ),
+      url("../img/navor_experiencia.webp");
+   background-size: cover;
+   background-position: center;
+   min-height: 950px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   padding: 40px;
+}
 .botoes {
    display: flex;
    gap: 20px;
@@ -165,4 +237,82 @@ footer {
    font-size: 14px;
    font-weight: 400;
    margin: 0;
+}
+.identidade-navor {
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   gap: 15px;
+   width: 100%;
+   position: relative;
+}
+.logo-navor {
+   width: 90px;
+   height: auto;
+   position: absolute;
+   left: 0%;
+   top: 10%;
+}
+.titulo {
+   margin: 0;
+   color: #D4AF27;
+   text-align:center
+   justify-content: center;
+}
+.identidade-navor span{
+   color: #dcdcdc;
+}
+.banner-lounge{
+   background-image:
+      linear-gradient(
+         rgba(0, 0, 0, 0.6),
+         rgba(0, 0, 0, 0.6)
+      ),
+      url(../img/lounge.jpeg);
+   background-size: cover;
+   background-position: center;
+   min-height: 950px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   padding: 40px;
+}
+.equipe-container{
+   display: grid;
+   gap: 20px;
+   justify-content: center;
+   grid-template-columns: repeat(2, 520px);
+}
+.equipe-container article{
+    background-color: #1F1F1F;
+    border: 1px solid #D4AF37;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.5s ease;
+    width: 500px;
+    flex-wrap: wrap;
+}
+.equipe-container article:hover{
+   transform: translateY(-15px);
+   box-shadow: 0 5px 10px rgba(212, 175, 55, 0.3);
+}
+.equipe-container article img{
+   width: 250px;
+   height: 300px;
+   object-fit: cover;
+   object-position: top;
+}
+.equipe-container h2{
+   color: #D4AF37;
+}
+.equipe-container p{
+   color: #F5F5F5;
+}
+.titulo-equipe{
+   color: #D4AF37;
+   text-align: center;
+   padding: 20px;
 }
