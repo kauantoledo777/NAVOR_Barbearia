@@ -42,11 +42,12 @@
                     <label>
                         Escolha seu especialista:
                     </label>
-                    <select name="especialista" id="especialista">
-                        <option value="especialista1">Especialista 1</option>
-                        <option value="especialista2">Especialista 2</option>
-                        <option value="especialista3">Especialista 3</option>
-                        <option value="especialista4">Especialista 4</option>
+                    <select name="especialista" id="especialista" required>
+                        <option value="especialista" disabled selected>Selecione seu especialista</option>
+                        <option value="especialista1">Jason Menezes</option>
+                        <option value="especialista2">Tyler Jhonson</option>
+                        <option value="especialista3">Washington Veiga</option>
+                        <option value="especialista4">Mauro Yoshiro</option>
                     </select>
                     <label for="selecionar-data">
                         Selecione a Data desejada:
@@ -72,7 +73,7 @@
                     <label for="telefone">
                         Seu telefone para contato:
                     </label>
-                    <input type="tel" id="telefone" name="telefone" required>
+                    <input type="tel" id="telefone" name="telefone" placeholder="(11) 98765-4321" required>
                     <button type="submit" aria-label="Confirmar agendamento">Agendar</button>
                 </form>
                 <div>

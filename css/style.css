@@ -221,7 +221,7 @@ main {
    background-color: #FFD700;
    color: #171717;
    transform: translateY(-4px);
-   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+   box-shadow: 0 5px 10px rgba(212, 175, 55, 0.3);
 }
 .banner p.descricao {
     font-size: 18px;
