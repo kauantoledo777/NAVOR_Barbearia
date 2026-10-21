@@ -316,3 +316,35 @@ footer {
    text-align: center;
    padding: 20px;
 }
+
+/*pg localização*/
+
+.localizacao {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+}
+.container-localizacao {
+   width: 100%;
+   padding: 10px;
+   margin: 10px 0 10px 0;
+   display: flex;
+}
+.container-titulo{
+   width: 600px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+}
+.titulo-localizacao {
+   font-family: var(--fonte-principal);
+   font-size: 40px;
+   color: var(--cor-fonte);
+}
+
+.p-localizacao{
+   font-family: var(--fonte-secundaria);
+   color: var(--cor-fonte);
+}
