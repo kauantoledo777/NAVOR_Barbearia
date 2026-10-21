@@ -348,3 +348,62 @@ footer {
    font-family: var(--fonte-secundaria);
    color: var(--cor-fonte);
 }
+
+/* pg-agendamento */
+.banner-agendamento{
+   background-image:
+      linear-gradient(
+         rgba(0, 0, 0, 0.6),
+         rgba(0, 0, 0, 0.6)
+      ),
+      url(../img/navor_fundo.webp);
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.container-ag, .container-momento{
+   width: 350px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   background-color: var(--cor-fundo);
+   margin: 10px 0 10px 0;
+   padding: 20px;
+   border: solid 1px var(--cor-btn);
+   border-radius: 10px;
+}
+
+.titulo-agendamento{
+   font-family: var(--fonte-principal);
+   font-size: 35px;
+   color: var(--cor-fonte);
+}
+
+.p-agendamento, .texto-especialista, .texto-label{
+   font-family: var(--fonte-secundaria);
+   color: var(--cor-fonte);
+   font-size: 13px;
+}
+
+.form-agendamento{
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+}
+
+.sel-especialista{
+   display: flex;
+}
+
+.container-data, .container-horario{
+   display: flex;
+   justify-content: space-between;
+}
+
+.select-data, .select-hora{
+   width: 100px;
+}
+
+.ag-linha{
+   border: 1px solid var(--cor-btn);
+}
