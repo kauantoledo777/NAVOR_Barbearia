@@ -10,7 +10,7 @@ Projeto desenvolvido em grupo com o objetivo de estruturar uma página para uma 
 
 **Guilherme Carlos e Pamela:** Sugerem melhoria semântica.
 
-**Gabriel e Guilherme Elder:** Elaborar relatóio de orçamento de hospedagem.
+**Gabriel e Guilherme Elder:** Elaborar relatório de orçamento de hospedagem.
 
 **Enzo, Kauan e Matheus:** Desenvoldedores FrontEnd.
 
