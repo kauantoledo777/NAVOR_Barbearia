@@ -10,9 +10,10 @@
 
 <body>
     <header class="cabecalho">
+        <a href="../html/index.html"><img src="../img/logo_navor_ok.webp" alt="Logo da NAVØR" class="logo-navor"></a>
         <div class="cabecalho-container">
             <div class="identidade-navor">
-                <a href="../html/index.html"><img src="../img/logo_navor_ok.webp" alt="Logo da NAVØR" class="logo-navor"></a>
+                <!-- <a href="../html/index.html"><img src="../img/logo_navor_ok.webp" alt="Logo da NAVØR" class="logo-navor"></a> -->
                 <h1 class="titulo">NAVØR
                     <span>| Agendamento</span>
                 </h1>
@@ -32,32 +33,36 @@
         </div>
     </header>
     <main class="conteudo2">
-        <section class="banner">
-            <h2>Agende seu horário</h2>
-            <p>Escolha seu especialista, os rituais de sua preferência e reserve seu momento de desconexão e estilo
-                no
-                atelier NAVØR.</p>
-            <div>
-                <form>
-                    <label>
+        <section class="banner-agendamento">
+            <div class="container-ag">
+                <h2 class="titulo-agendamento">Agende seu horário</h2>
+                <p class="p-agendamento">Escolha seu especialista, os rituais de sua preferência e reserve seu momento de desconexão e estilo
+                    no
+                    atelier NAVØR.
+                </p>
+
+                <form class="form-agendamento">
+                    <label class="texto-especialista">
                         Escolha seu especialista:
                     </label>
-                    <select name="especialista" id="especialista" required>
+                    <select name="especialista" id="especialista" required class="sel-especialista">
                         <option value="especialista" disabled selected>Selecione seu especialista</option>
                         <option value="especialista1">Jason Menezes</option>
                         <option value="especialista2">Tyler Jhonson</option>
                         <option value="especialista3">Washington Veiga</option>
                         <option value="especialista4">Mauro Yoshiro</option>
                     </select>
-                    <label for="selecionar-data">
-                        Selecione a Data desejada:
-                    </label>
-                    <input type="date" id="selecionar-data" required>
-                    <label for="nome">
+                    <div class="container-data">
+                        <label for="selecionar-data" class="texto-label">
+                            Selecione a Data desejada:
+                        </label>
+                        <input type="date" id="selecionar-data" required class="select-data">
+                    </div>
+                    <label for="nome" class="texto-label">
                         Coloque seu nome completo:
                     </label>
                     <input type="text" id="nome" name="nome" required>
-                    <label for="servico">
+                    <label for="servico" class="texto-label">
                         Selecione o serviço desejado:
                     </label>
                     <select name="servico" id="servico">
@@ -66,28 +71,34 @@
                         <option value="corte-barba">Corte + Barba</option>
                         <option value="tratamento">Tratamento Capilar</option>
                     </select>
-                    <label for="selecionar-horario">
-                        Selecione o horário desejado:
-                    </label>
-                    <input type="time" id="selecionar-horario">
-                    <label for="telefone">
+                    <div class="container-horario">
+                        <label for="selecionar-horario" class="texto-label">
+                            Selecione o horário desejado:
+                        </label>
+                        <input type="time" id="selecionar-horario" class="select-hora">
+                    </div>
+                    <label for="telefone" class="texto-label">
                         Seu telefone para contato:
                     </label>
                     <input type="tel" id="telefone" name="telefone" placeholder="(11) 98765-4321" required>
                     <button type="submit" aria-label="Confirmar agendamento">Agendar</button>
                 </form>
-                <div>
-                    <h2>Seu Momento NAVØR</h2>
-                    <p>O agendamento garante atendimento privativo e sem atrasos. Todas as sessões incluem café
+            </div>        
+            
+                
+            
+                <div class="container-momento">
+                    <h2 class="titulo-agendamento">Seu Momento NAVØR</h2>
+                    <p class="p-agendamento">O agendamento garante atendimento privativo e sem atrasos. Todas as sessões incluem café
                         expresso
                         gourmet ou uma dose cortesia de Single Malt Whisky como ritual de boas-vindas.</p>
-                    <div style="border: 1px solid #000000;"></div>
-                    <span>Local de Atendimento</span>
-                    <p>
+                    <div width="100%" class="ag-linha"></div>
+                    <span class="texto-label">Local de Atendimento</span>
+                    <p class="p-agendamento">
                         R. Caquito, 347 - Vila Sao Geraldo, São Paulo - SP
                     </p>
-                    <span>Dúvidas ou Reagendamentos?</span>
-                    <span>WhatsApp: (11) 99999-8888</span>
+                    <span class="texto-label">Dúvidas ou Reagendamentos?</span>
+                    <span class="texto-label">WhatsApp: (11) 99999-8888</span>
                 </div>
             </div>
         </section>
