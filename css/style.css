@@ -62,7 +62,7 @@ main {
    transition: all 0.3s ease;
 }
 .card:hover{
-   transform: translateY(-50px);
+   transform: translateY(-8px);
    box-shadow: 0 5px 10px rgba(212, 175, 55, 0.3);
 }
 .card-baixo{
@@ -77,7 +77,7 @@ main {
    transition: all 0.3s ease;
 }
 .card-baixo:hover{
-   transform: translate(0, 50px);
+   transform: translateY(-8px);
    box-shadow: 0 5px 10px rgba(212, 175, 55, 0.3);
 }
 .card-baixo p{
