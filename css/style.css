@@ -538,3 +538,49 @@ span{
 
 
 /*pg loja*/
+.h2-loja{
+   margin: 60px 20px 0px 60px;
+   color: #dcdcdc;
+   font-family: var(--fonte-principal);
+   font-size: 40px;
+}
+
+.span-loja{
+   color: #d3af27;
+   font-family: var(--fonte-principal);
+   font-size: 40px;
+}
+
+.table-loja{
+   border-collapse: collapse;
+   width: 80%;
+   margin: 80px auto;
+   line-height: 1.6;
+}
+
+.table-loja img{
+   width: 192px;
+}
+
+.table-loja th{
+   color: #F5F2E8;
+   font-size: 16px;
+   font-family: var(--fonte-secundaria);
+}
+
+.table-loja input{
+   border-radius: 24px;
+   cursor: pointer;
+   font-family: var(--fonte-secundaria);
+   font-size: 16px;
+   background-color: #444;
+   color: #dcaf27;
+   margin: 20px 0px;
+   padding: 5px 18px;
+   text-align: center;
+}
+
+.table-loja input:hover {
+   transform: translateY(-4px);
+   box-shadow: 0 5px 10px rgba(212, 175, 55, 0.3);
+}
