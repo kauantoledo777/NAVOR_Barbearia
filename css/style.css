@@ -216,7 +216,7 @@ main {
    background-color: #FFD700;
    color: #171717;
    transform: translateY(-4px);
-   box-shadow: 0 5px 10px rgba(212, 175, 55, 0.3);
+   box-shadow: 0 5px 10px rgb a(212, 175, 55, 0.3);
 }
 .banner p.descricao {
    font-size: 18px;
@@ -271,6 +271,7 @@ footer {
    align-items: center;
    text-align: center;
    padding: 40px;
+   font-size: 25px;
 }
 .equipe-container {
    display: grid;
@@ -506,11 +507,11 @@ span{
    display: flex;
    align-items: center;
    justify-content: center;
-   color: #FFF;
+   color: #D4AF37;
 }
 .descricao-galeria {
    display: flex;
-   align-items: center;
+   align-items: cen  ter;
    justify-content: center;
    color: #FFF;
 }
@@ -522,9 +523,9 @@ span{
 }
 .carrossel {
     position: flex;
-    width: 600px;
+    width: 1000px;
     max-width: 90%;
-    height: 350px;
+    height: 500px;
     overflow: hidden;
     border-radius: 15px;
 }
@@ -559,4 +560,29 @@ button {
 }
 button:hover {
     background: rgba(0, 0, 0, 0.8);
+}
+.titulo-lounge {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #D4AF37;
+}
+.descricao-lounge {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #FFF;
+}
+.titulo-servicos {
+   align-items: center;
+   justify-content: center;
+   color: #D4AF37;
+}
+.servicos-lounge {
+   align-items: center;
+   justify-content: center;
+   color: #FFF;
+}
+.lista-servicos {
+   list-style: none;
 }
