@@ -34,24 +34,40 @@
     </header>
     <main>
         <section>
-            <h2>Galeria de Estilos</h2>
-            <p>
-                Explore os detalhes, cortes impecáveis, barbas desenhadas com maestria geométrica e a atmosfera
-                incomparável criada em nosso atelier premium.
-            </p>
+            <br>
+            <div class="titulo-galeria">
+                <h2>Galeria de Estilos</h2>
+            </div>
+            <div class="descricao-galeria">
+                <p>
+                    Explore os detalhes, cortes impecáveis, barbas desenhadas com maestria geométrica e a atmosfera
+                    incomparável criada em nosso atelier premium.
+                </p>
+            </div>
+            <br>
             <!-- imagem com efeito carrosel -->
-            <figure>
-                <img src="../img/foto_corte_1.webp" alt="Atendimento" width="812">
-                <img src="../img/foto_corte_2.webp" alt="Atendimento" width="200">
-                <img src="../img/foto_produtos.webp" alt="Produtos" width="200">
-                <img src="../img/foto_corte_1.webp" alt="Porfissionais" width="200">
-                <img src="../img/foto_fundo_bebida.webp" alt="Porfissionais" width="200">
+            <figure class="galeria">
+                <button class="anterior" onclick="mudarSlide(-1)">
+                    &#10094;
+                </button>
+                <div class="carrossel">
+                    <div class="slides" id="slides">
+                        <img src="../img/foto_corte_1.webp" alt="Atendimento">
+                        <img src=" ../img/foto_corte_2.webp" alt="Atendimento">
+                        <img src=" ../img/foto_produtos.webp" alt="Produtos">
+                        <img src=" ../img/foto_fundo_bebida.webp" alt="Porfissionais">
+                    </div>
+                </div>
+                <button class="proximo" onclick="mudarSlide(1)">
+                    &#10095;
+                </button>
             </figure>
         </section>
     </main>
     <footer>
         <p>© 2026 NAVØR - Todos os direitos reservados.</p>
     </footer>
+    <script src="../js/script.js"></script>
 </body>
 
 </html>

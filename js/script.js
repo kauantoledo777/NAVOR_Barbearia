@@ -1,11 +1,11 @@
+let slideAtual = 0;
+const slides = document.getElementById("slides");
+const imagens = slides.querySelectorAll("img");
 // seleciona o id do formulario
 const formulario = document.getElementById("form-agendamento");
-
-
 formulario.addEventListener('submit', async (event) => {
    // prevenção de envio de formulario
    event.preventDefault();
-
    // 3. Captura os valores digitados
    const dadosAgendamentos = {
       especialista: document.getElementById('especialista').value,
@@ -17,8 +17,16 @@ formulario.addEventListener('submit', async (event) => {
    }
    console.log('dados ok: ', dadosAgendamentos);
 });
-
-
-
-
-
+function mudarSlide(direcao) {
+    slideAtual += direcao;
+    // Se passar da última imagem, volta para a primeira
+    if (slideAtual >= imagens.length) {
+        slideAtual = 0;
+    }
+    // Se voltar antes da primeira, vai para a última
+    if (slideAtual < 0) {
+        slideAtual = imagens.length - 1;
+    }
+    // Move as imagens horizontalmente
+    slides.style.transform = `translateX(-${slideAtual * 100}%)`;
+}
