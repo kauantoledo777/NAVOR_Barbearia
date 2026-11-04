@@ -276,7 +276,8 @@ footer {
    display: grid;
    gap: 20px;
    justify-content: center;
-   grid-template-columns: repeat(2, 520px);
+   grid-template-columns: repeat(3, 520px);
+   margin-bottom: 20px;
 }
 .equipe-container article {
    background-color: #1F1F1F;
