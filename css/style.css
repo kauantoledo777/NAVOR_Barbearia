@@ -123,7 +123,6 @@ main {
 .imgProduto {
    width: 192px;
 }
-.contato {}
 .navegacao {
    display: flex;
    gap: 15px;
@@ -541,7 +540,18 @@ span{
     flex-shrink: 0;
     object-fit: cover;
 }
-button {
+button.anterior {
+    margin-top: 40px;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+}
+button.proximo {
     margin-top: 40px;
     transform: translateY(-50%);
     background: rgba(0, 0, 0, 0.5);
@@ -558,7 +568,10 @@ button {
 .proximo {
     margin-left: 10px;
 }
-button:hover {
+button.anterior:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+button.proximo:hover {
     background: rgba(0, 0, 0, 0.8);
 }
 .titulo-lounge {
@@ -585,4 +598,26 @@ button:hover {
 }
 .lista-servicos {
    list-style: none;
+}
+.contato {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100%;
+   gap: 20px;
+   padding: 20px;
+}
+.contato-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.link-contato{
+   font-weight: bold;
+   margin-left: 15px;
+   background: none;
+}
+.icone{
+   width: 25%;
+   height: 25%;
 }
