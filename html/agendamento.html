@@ -14,7 +14,7 @@
         <div class="cabecalho-container">
             <div class="identidade-navor">
                 <!-- <a href="../html/index.html"><img src="../img/logo_navor_ok.webp" alt="Logo da NAVØR" class="logo-navor"></a> -->
-                <h1 class="titulo">NAVØR 
+                <h1 class="titulo">NAVØR
                     <span>| Agendamento</span>
                 </h1>
             </div>
@@ -36,21 +36,27 @@
         <section class="banner-agendamento">
             <div class="container-ag">
                 <h2 class="titulo-agendamento">Agende seu horário</h2>
-                <p class="p-agendamento">Escolha seu especialista, os rituais de sua preferência e reserve seu momento de desconexão e estilo
+                <p class="p-agendamento">Escolha seu especialista, os rituais de sua preferência e reserve seu momento
+                    de desconexão e estilo
                     no
                     atelier NAVØR.
                 </p>
-
-                <form class="form-agendamento" id="form-agendamento" method="post">
+                <form class="form-agendamento" id="form-agendamento" method="post"
+                    onsubmit="mostrarAlerta(); return false;">
                     <label class="texto-especialista">
                         Escolha seu especialista:
                     </label>
                     <select name="especialista" id="especialista" required class="sel-especialista">
                         <option value="especialista" disabled selected>Selecione seu especialista</option>
-                        <option value="especialista1">Jason Menezes</option>
-                        <option value="especialista2">Tyler Jhonson</option>
-                        <option value="especialista3">Washington Veiga</option>
-                        <option value="especialista4">Mauro Yoshiro</option>
+                        <option value="especialista1">Kauan Toledo</option>
+                        <option value="especialista2">Erisclecio Araujo</option>
+                        <option value="especialista3">Enzo</option>
+                        <option value="especialista4">Matheus</option>
+                        <option value="especialista5">Pamela</option>
+                        <option value="especialista6">Daniel</option>
+                        <option value="especialista7">Gabriel</option>
+                        <option value="especialista8">Guilherme Elder</option>
+                        <option value="especialista9">Guilherme Carlos</option>
                     </select>
                     <div class="container-data">
                         <label for="selecionar-data" class="texto-label">
@@ -70,6 +76,7 @@
                         <option value="barba">Barba</option>
                         <option value="corte-barba">Corte + Barba</option>
                         <option value="tratamento">Tratamento Capilar</option>
+                        <option value="estetica">Estética facial + cuidados com a pele</option>
                     </select>
                     <div class="container-horario">
                         <label for="selecionar-horario" class="texto-label">
@@ -83,23 +90,21 @@
                     <input type="tel" id="telefone" name="telefone" placeholder="(11) 98765-4321" required>
                     <button type="submit" aria-label="Confirmar agendamento">Agendar</button>
                 </form>
-            </div>        
-            
-                
-            
-                <div class="container-momento">
-                    <h2 class="titulo-agendamento">Seu Momento NAVØR</h2>
-                    <p class="p-agendamento">O agendamento garante atendimento privativo e sem atrasos. Todas as sessões incluem café
-                        expresso
-                        gourmet ou uma dose cortesia de Single Malt Whisky como ritual de boas-vindas.</p>
-                    <div width="100%" class="ag-linha"></div>
-                    <span class="texto-label">Local de Atendimento</span>
-                    <p class="p-agendamento">
-                        R. Caquito, 347 - Vila Sao Geraldo, São Paulo - SP
-                    </p>
-                    <span class="texto-label">Dúvidas ou Reagendamentos?</span>
-                    <span class="texto-label">WhatsApp: (11) 99999-8888</span>
-                </div>
+            </div>
+            <div class="container-momento">
+                <h2 class="titulo-agendamento">Seu Momento NAVØR</h2>
+                <p class="p-agendamento">O agendamento garante atendimento privativo e sem atrasos. Todas as sessões
+                    incluem café
+                    expresso
+                    gourmet ou uma dose cortesia de Single Malt Whisky como ritual de boas-vindas.</p>
+                <div width="100%" class="ag-linha"></div>
+                <span class="texto-label">Local de Atendimento</span>
+                <p class="p-agendamento">
+                    R. Caquito, 347 - Vila Sao Geraldo, São Paulo - SP
+                </p>
+                <span class="texto-label">Dúvidas ou Reagendamentos?</span>
+                <span class="texto-label">WhatsApp: (11) 99999-8888</span>
+            </div>
             </div>
         </section>
     </main>

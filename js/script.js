@@ -30,3 +30,13 @@ function mudarSlide(direcao) {
     // Move as imagens horizontalmente
     slides.style.transform = `translateX(-${slideAtual * 100}%)`;
 }
+function mostrarAlerta() {
+    alert("Agendamento realizado com sucesso!");
+    window.location.reload();
+    document.getElementById('especialista').value = '';
+    document.getElementById('selecionar-data').value = '';
+    document.getElementById('nome').value = '';
+    document.getElementById('servico').value = '';
+    document.getElementById('selecionar-horario').value = '';
+    document.getElementById('telefone').value = '';
+}
